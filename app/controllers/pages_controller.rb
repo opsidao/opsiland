@@ -5,7 +5,8 @@ class PagesController < ApplicationController
       linkedin: "http://www.linkedin.com/in/opsidao",
       github: "https://github.com/opsidao",
       lastfm: "http://www.lastfm.com/user/opsidao",
-      steam: "http://steamcommunity.com/profiles/76561197999651374"
+      steam: "http://steamcommunity.com/profiles/76561197999651374",
+      spotify: "http://open.spotify.com/user/opsidao"
     }
   end
 end

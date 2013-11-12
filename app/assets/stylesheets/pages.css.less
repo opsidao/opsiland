@@ -1,8 +1,30 @@
 .social-network{
-  text-align: center;
+  display: inline;
+
+  img {
+    display: inline;
+    margin-bottom: 4px;
+  }
 }
 
 #heading {
   font-size: 50px;
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .social-network img {
+    width: 49.5%;
+  }
+}
+@media (min-width: 768px) {
+  .social-network img {
+    width: 32.9%;
+  }
+}
+
+@media (min-width: 1380px) {
+  .social-network img {
+    width: 16.4%;
+  }
 }
