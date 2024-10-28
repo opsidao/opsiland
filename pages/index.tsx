@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 
-import { Raleway, Roboto } from "@next/font/google";
+import { Raleway, Roboto } from "next/font/google";
 import Head from "next/head";
 
 const raleway = Raleway({ subsets: ["latin"], weight: "800" });
